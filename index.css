@@ -1,0 +1,58 @@
+@font-face {
+  font-family: AUTHENTICSans;
+  src: url(AUTHENTICSans-Condensed-150.otf);
+}
+
+body {
+  margin: 0;
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+
+h1 {
+  font-family: AUTHENTICSans;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.4em;
+  margin-top: 0;
+}
+
+.index {
+  position: fixed;
+  right: 0;
+  left:0;
+  top: 0;
+  display: grid;
+  grid-template-columns: 130px 130px 130px 130px 130px 130px;
+  column-gap: 30px;
+  padding-left: 25px;
+  padding-top: 25px;
+  padding-bottom: 26px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+a:link {
+  font-family: AUTHENTICSans;
+  font-size: 10px;
+  letter-spacing: 0.19em;
+  text-decoration: none;
+  color: white;
+  display: block;
+  line-height: 17px;
+}
+
+a:hover {
+  text-decoration:underline dotted 2px white;
+  text-underline-offset: 3px;
+}
+
+a:visited {
+  font-family: AUTHENTICSans;
+  text-decoration: none;
+  color: white;
+}
+
+.section {
+  justify-content: left;
+  margin-left: 40px;
+}
