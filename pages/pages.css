@@ -32,14 +32,12 @@ h1 {
 }
 
 .index {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  min-width: 580px;
+  display: grid;
+  grid-template-columns: 150px 120px 120px 120px 120px 120px;
+  column-gap: 30px;
   padding-left: 25px;
   padding-top: 25px;
   padding-bottom: 25px;
-  
 }
 
 a:link {
