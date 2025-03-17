@@ -44,7 +44,7 @@ h2 {
   justify-content: space-between;
   min-width: 570px;
   padding-left: 0;
-  padding-top: 15px;
+  padding-top: 14px;
   padding-bottom: 15px;
   margin-left: 150px;
   width: 0;
@@ -76,7 +76,7 @@ h2 {
 .home:visited {
   position: absolute;
   display: inline-block;
-  top: 15px;
+  top: 14px;
   left:15px;
   font-family: AUTHENTICSans;
   font-size: 13px;
