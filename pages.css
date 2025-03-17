@@ -76,8 +76,8 @@ h2 {
 .home:visited {
   position: absolute;
   display: inline-block;
-  top: 100px;
-  left:100px;
+  top: 25px;
+  left:25px;
   font-family: AUTHENTICSans;
   font-size: 13px;
   font-weight: 400;
