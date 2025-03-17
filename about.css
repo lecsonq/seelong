@@ -118,7 +118,7 @@ p {
 .paragraph {
   display:inline-block;
   position: absolute;
-  top: 1400px;
+  top: 140px;
   left: 20px;
   width: 500px;
 }
