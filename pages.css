@@ -137,6 +137,20 @@ h2 {
   padding: 13px;
 }
 
+.about:link,
+.about:hover,
+.about:visited {
+  display: block;
+  text-align: right;
+  font-family: AUTHENTICSans;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 0.19em;
+  margin-right: 20px;
+  text-decoration: none;
+  color: white;
+}
+
 .footer-list{
   display: grid;
   grid-template-rows: 1fr 1fr;
