@@ -14,9 +14,18 @@ h1 {
   font-family: AUTHENTICSans;
   font-size: 13px;
   font-weight: 400;
-  letter-spacing:0.32em;
-  margin-top: 0;
-  margin-right: 30px;
+  letter-spacing: 0.32em;
+  margin: 0;
+}
+
+h2 {
+  display: block;
+  text-align: right;
+  font-family: AUTHENTICSans;
+  font-weight: 400;
+  font-size: 10px;
+  letter-spacing: 0.19em;
+  margin-right: 20px;
 }
 
 .header {
@@ -65,16 +74,6 @@ a:visited {
   justify-content: left;
 }
 
-h2 {
-  display: block;
-  text-align: right;
-  font-family: AUTHENTICSans;
-  font-weight: 400;
-  font-size: 10px;
-  letter-spacing: 0.19em;
-  margin-right: 20px;
-}
-
 .image {
   max-width: 100%;
   height: auto;
@@ -97,6 +96,15 @@ h2 {
   padding-bottom: 13px;
 }
 
+.vertical {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 4px;
+  padding: 0;
+  padding-top: 0;
+
+}
+
 .horizontal {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -106,14 +114,25 @@ h2 {
   padding-top: 0;
   padding: 0;
   vertical-align: top;
-  margin-bottom: 4px;
+  padding-bottom: 4px;
 }
 
-.vertical {
+.footer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 4px;
-  padding: 0;
-  padding-top: 0;
-  margin-bottom: 200px;
+  align-items: right;
+  color:white;
+  padding: 13px;
+}
+
+.footer-list{
+  display:grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 3px;
+  text-align: right;
+  left:13px;
+  font-family: AUTHENTICSans;
+  font-size: 10px;
+  letter-spacing: 0.19em;
+  text-decoration: none;
+  color: white;
 }
