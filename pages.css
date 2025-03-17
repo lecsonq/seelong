@@ -73,6 +73,7 @@ h2 {
 .home:link,
 .home:hover,
 .home:visited {
+  position: absolute;
   font-family: AUTHENTICSans;
   font-size: 13px;
   font-weight: 400;
