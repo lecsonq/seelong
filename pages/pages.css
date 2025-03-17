@@ -125,11 +125,10 @@ a:visited {
 }
 
 .footer-list{
-  display:grid;
+  display: grid;
   grid-template-rows: 1fr 1fr;
   row-gap: 3px;
   text-align: right;
-  left:13px;
   font-family: AUTHENTICSans;
   font-size: 10px;
   letter-spacing: 0.19em;
