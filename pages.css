@@ -64,6 +64,22 @@ a:hover {
   text-underline-offset: 3px;
 }
 
+.home {
+  font-family: AUTHENTICSans;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.32em;
+  margin: 0;
+}
+
+.home:hover {
+  font-family: AUTHENTICSans;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.32em;
+  margin: 0;
+}
+
 a:visited {
   font-family: AUTHENTICSans;
   text-decoration: none;
