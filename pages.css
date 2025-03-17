@@ -75,6 +75,7 @@ h2 {
 .home:hover,
 .home:visited {
   position: absolute;
+  display: inline-block;
   top: 100px;
   left:100px;
   font-family: AUTHENTICSans;
