@@ -84,6 +84,7 @@ h2 {
 
 .section {
   justify-content: left;
+  margin-right: 30px;
 }
 
 .image {
