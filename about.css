@@ -29,10 +29,10 @@ h2 {
 }
 
 .header {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: px 1fr;
   justify-content: space-between;
-  height: 120px;
+  height: 140px;
   position: fixed;
   right: 0;
   top: 0;
