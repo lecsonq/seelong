@@ -110,15 +110,6 @@ h2 {
   padding-bottom: 13px;
 }
 
-.vertical {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 4px;
-  padding: 0;
-  padding-top: 0;
-
-}
-
 .horizontal {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -129,6 +120,16 @@ h2 {
   padding: 0;
   vertical-align: top;
   padding-bottom: 4px;
+}
+
+.vertical {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 4px;
+  padding: 0;
+  padding-top: 0;
+  margin-bottom: 200px;
+
 }
 
 .footer {
