@@ -118,16 +118,16 @@ p {
 .paragraph {
   display:inline-block;
   position: absolute;
-  top: 130px;
+  top: 1400px;
   left: 20px;
   width: 500px;
 }
 
 .footer {
   display: grid;
-  position: absolute;
-  right:13px;
-  bottom:13px;
+  position: relative;
+  right: 13px;
+  bottom: 13px;
   align-items: right;
   color:white;
 }
