@@ -119,8 +119,10 @@ p {
 }
 
 .paragraph {
-  margin-left: 700px;
-  margin-right: 700px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 200px;
+  margin-right: 200px;
 }
 
 .footer-list{
