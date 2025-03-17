@@ -7,7 +7,7 @@ body {
   margin: 0;
   color: white;
   background-color: rgb(0, 0, 0);
-  padding-top: 130px;
+  padding-top: 125px;
 }
 
 h1 {
@@ -44,9 +44,9 @@ h2 {
   justify-content: space-between;
   min-width: 570px;
   padding-left: 0;
-  padding-top: 14px;
-  padding-bottom: 15px;
-  margin-left: 200px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-left: 180px;
   width: 0;
 }
 
@@ -76,8 +76,8 @@ h2 {
 .home:visited {
   position: absolute;
   display: inline-block;
-  top: 14px;
-  left:15px;
+  top: 18px;
+  left:18px;
   font-family: AUTHENTICSans;
   font-size: 13px;
   font-weight: 400;
