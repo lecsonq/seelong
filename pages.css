@@ -31,7 +31,7 @@ h2 {
 .header {
   display: flex;
   flex-direction: row;
-  height: 120px;
+  height: 110px;
   position: fixed;
   right: 0;
   top: 0;
@@ -44,10 +44,9 @@ h2 {
   justify-content: space-between;
   min-width: 570px;
   padding-left: 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-left: 160px;
-  width: 0;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  margin-left: 150px;
 }
 
 .cities-link:link {
@@ -76,14 +75,14 @@ h2 {
 .home:visited {
   position: absolute;
   display: inline-block;
-  top: 20px;
-  left:20px;
+  top: 13px;
+  left:13px;
   font-family: AUTHENTICSans;
   font-size: 13px;
   font-weight: 400;
   letter-spacing: 0.32em;
   text-decoration: none;
-  margin-top: 2px;
+  margin-top: 1px;
   color: white;
 }
 
@@ -101,8 +100,9 @@ h2 {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 4px;
   row-gap: 4px;
-  margin-bottom: 160px;
-  padding: 13px;
+  margin-bottom: 120px;
+  padding-left: 13px;
+  padding-right: 13px;
   padding-top: 0;
 }
 
