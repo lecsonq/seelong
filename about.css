@@ -125,6 +125,7 @@ p {
 
 .footer {
   display: grid;
+  position: absolute;
   right: 13px;
   bottom: 13px;
   align-items: right;
