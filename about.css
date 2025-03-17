@@ -31,6 +31,7 @@ h2 {
 .header {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   height: 120px;
   position: fixed;
   right: 0;
@@ -42,7 +43,6 @@ h2 {
 .index {
   display: flex;
   justify-content: space-between;
-  min-width: 570px;
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
