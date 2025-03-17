@@ -29,10 +29,9 @@ h2 {
 }
 
 .header {
-  display: grid;
-  grid-template-columns: px 1fr;
-  justify-content: space-between;
-  height: 140px;
+  display: flex;
+  flex-direction: row;
+  height: 120px;
   position: fixed;
   right: 0;
   top: 0;
@@ -43,11 +42,13 @@ h2 {
 .index {
   display: flex;
   justify-content: space-between;
-  padding-left: 20px;
+  min-width: 570px;
+  padding-left: 0;
   padding-top: 20px;
   padding-bottom: 20px;
   margin-right: 140px;
   margin-left: 140px;
+  width: 0;
 }
 
 .cities-link:link {

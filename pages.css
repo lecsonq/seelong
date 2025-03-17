@@ -48,6 +48,7 @@ h2 {
   padding-bottom: 20px;
   margin-right: 140px;
   margin-left: 140px;
+  width: 0;
 }
 
 .cities-link:link {
