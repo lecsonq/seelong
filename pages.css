@@ -41,9 +41,8 @@ h2 {
 }
 
 .index {
-  display: grid;
-  grid-template-columns: 150px 120px 120px 120px 120px 120px;
-  column-gap: 30px;
+  display: flex;
+  width:auto;
   padding-left: 25px;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -92,7 +91,7 @@ h2 {
 }
 
 .image-grid {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 4px;
   row-gap: 4px;
