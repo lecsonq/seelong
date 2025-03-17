@@ -64,19 +64,24 @@ h2 {
   text-underline-offset: 3px;
 }
 
-.home {
-  font-family: AUTHENTICSans;
-  font-size: 13px;
-  font-weight: 400;
-  letter-spacing: 0.32em;
-  margin: 0;
-}
-
-a:visited {
+.cities-link:visited {
   font-family: AUTHENTICSans;
   text-decoration: none;
   color: white;
 }
+
+.home:link,
+.home:hover,
+.home:visited {
+  font-family: AUTHENTICSans;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0.32em;
+  text-decoration: none;
+  margin: 0;
+}
+
+
 
 .section {
   justify-content: left;
