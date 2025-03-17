@@ -123,8 +123,9 @@ p {
 }
 
 .paragraph {
-  width: 400px;
+  width: 500px;
   margin: auto;
+  align-items: center;
 }
 
 .footer-list{
