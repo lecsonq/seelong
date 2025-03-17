@@ -43,11 +43,11 @@ h2 {
   display: flex;
   justify-content: space-between;
   min-width: 570px;
-  padding-left: 25px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin-right: 170px;
-  margin-left: 170px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-right: 140px;
+  margin-left: 140px;
 }
 
 .cities-link:link {
@@ -76,8 +76,8 @@ h2 {
 .home:visited {
   position: absolute;
   display: inline-block;
-  top: 25px;
-  left:25px;
+  top: 20px;
+  left:20px;
   font-family: AUTHENTICSans;
   font-size: 13px;
   font-weight: 400;
@@ -89,7 +89,7 @@ h2 {
 
 .section {
   justify-content: left;
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .image {
