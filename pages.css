@@ -36,7 +36,6 @@ h2 {
   right: 0;
   top: 0;
   left:0;
-  justify-content: space-between;
   background-color: rgba(0, 0, 0, 0.25);
 }
 
@@ -47,8 +46,8 @@ h2 {
   padding-left: 25px;
   padding-top: 25px;
   padding-bottom: 25px;
-  margin-right: 180px;
-  margin-left: 40px;
+  margin-right: 170px;
+  margin-left: 170px;
 }
 
 .cities-link:link {
@@ -76,8 +75,8 @@ h2 {
 .home:hover,
 .home:visited {
   position: absolute;
-  top: 13px;
-  left:13px;
+  top: 100px;
+  left:100px;
   font-family: AUTHENTICSans;
   font-size: 13px;
   font-weight: 400;
