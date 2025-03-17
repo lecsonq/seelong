@@ -40,6 +40,7 @@ h2 {
 
 .index {
   display: flex;
+  min-width: 570px;
   padding-left: 25px;
   padding-top: 25px;
   padding-bottom: 25px;
