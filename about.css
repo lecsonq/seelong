@@ -96,13 +96,6 @@ h2 {
   height: auto;
 }
 
-.footer {
-  display: grid;
-  align-items: right;
-  color:white;
-  padding: 13px;
-}
-
 .about:link,
 .about:hover,
 .about:visited {
@@ -128,6 +121,16 @@ p {
   top: 150px;
   left: 20px;
   width: 500px;
+}
+
+.footer {
+  display: grid;
+  position: absolute;
+  right:13px;
+  bottom:16px;
+  align-items: right;
+  color:white;
+  padding: 13px;
 }
 
 .footer-list{
