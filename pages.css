@@ -40,6 +40,9 @@ h2 {
 }
 
 .index {
+  position: fixed;
+  top: 20px;
+  right: 0;
   display: flex;
   justify-content: space-between;
   min-width: 570px;
