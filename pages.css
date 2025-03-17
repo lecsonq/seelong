@@ -149,15 +149,14 @@ h2 {
 
 p {
   text-align: left;
-
-}
-
-.paragraph {
   font-family: AUTHENTICSans;
   font-weight: 400;
   font-size: 10px;
   letter-spacing: 0.19em;
-  margin: 40px;
+}
+
+.paragraph {
+  margin: 500px;
 }
 
 .footer-list{
