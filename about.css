@@ -127,10 +127,9 @@ p {
   display: grid;
   position: absolute;
   right:13px;
-  bottom:16px;
+  bottom:13px;
   align-items: right;
   color:white;
-  padding: 13px;
 }
 
 .footer-list{
