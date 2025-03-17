@@ -42,7 +42,7 @@ h2 {
 
 .index {
   display: flex;
-  width:auto;
+  width:700px;
   padding-left: 25px;
   padding-top: 25px;
   padding-bottom: 25px;
@@ -78,6 +78,7 @@ h2 {
   letter-spacing: 0.32em;
   text-decoration: none;
   margin-top: 2px;
+  margin-right: 40px;
   color: white;
 }
 
