@@ -29,7 +29,8 @@ h2 {
 }
 
 .header {
-  display: block;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   height: 120px;
   position: fixed;
   right: 0;
@@ -75,6 +76,8 @@ h2 {
 .home:hover,
 .home:visited {
   position: absolute;
+  top: 13px;
+  left:13px;
   font-family: AUTHENTICSans;
   font-size: 13px;
   font-weight: 400;
