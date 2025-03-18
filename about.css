@@ -1,6 +1,11 @@
 @font-face {
-  font-family: AUTHENTICSans;
+  font-family: 'AUTHENTICSans130';
   src: url(AUTHENTICSans-Condensed-130.otf);
+}
+
+@font-face {
+  font-family: 'AUTHENTICSans150';
+  src: url(AUTHENTICSans-Condensed-150.otf);
 }
 
 body {
@@ -12,7 +17,7 @@ body {
 }
 
 h1 {
-  font-family: AUTHENTICSans;
+  font-family: 'AUTHENTICSans150';
   font-size: 14px;
   font-weight: 400;
   letter-spacing: 0.32em;
@@ -22,7 +27,7 @@ h1 {
 h2 {
   display: block;
   text-align: right;
-  font-family: AUTHENTICSans;
+  font-family: 'AUTHENTICSans150'ns;
   font-weight: 400;
   font-size: 11px;
   letter-spacing: 0.19em;
@@ -52,7 +57,7 @@ h2 {
 }
 
 .cities-link:link {
-  font-family: AUTHENTICSans;
+  font-family: 'AUTHENTICSans150';
   font-size: 11px;
   letter-spacing: 0.19em;
   text-decoration: none;
@@ -67,7 +72,7 @@ h2 {
 }
 
 .cities-link:visited {
-  font-family: AUTHENTICSans;
+  font-family: 'AUTHENTICSans150';
   text-decoration: none;
   color: white;
 }
@@ -79,7 +84,7 @@ h2 {
   display: inline-block;
   top: 18px;
   left:18px;
-  font-family: AUTHENTICSans;
+  font-family: 'AUTHENTICSans150';
   font-size: 13px;
   font-weight: 400;
   letter-spacing: 0.32em;
@@ -100,7 +105,7 @@ h2 {
 .about:link,
 .about:hover,
 .about:visited {
-  font-family: AUTHENTICSans;
+  font-family: 'AUTHENTICSans150';
   font-size: 11px;
   letter-spacing: 0.19em;
   text-decoration: none;
@@ -109,7 +114,7 @@ h2 {
 
 p {
   text-align: left;
-  font-family: AUTHENTICSans;
+  font-family: 'AUTHENTICSans130';
   font-weight: lighter;
   font-size: 11px;
   letter-spacing: 0.19em;
@@ -139,7 +144,7 @@ p {
   grid-template-rows: 1fr 1fr;
   row-gap: 3px;
   text-align: right;
-  font-family: AUTHENTICSans;
+  font-family: 'AUTHENTICSans150';
   font-size: 11px;
   letter-spacing: 0.19em;
   text-decoration: none;
