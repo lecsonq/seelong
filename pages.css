@@ -42,7 +42,7 @@ h2 {
 .index {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   min-width: 570px;
   padding-left: 0;
   padding-top: 18px;
