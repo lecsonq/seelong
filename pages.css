@@ -28,12 +28,6 @@ h2 {
   margin-right: 15px;
 }
 
-@media (max-width: 800px) {
-  .index {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
 .header {
   display: flex;
   flex-direction: row;
@@ -46,8 +40,8 @@ h2 {
 }
 
 .index {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: row;
   justify-content: space-around;
   min-width: 570px;
   padding-left: 0;
