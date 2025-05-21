@@ -136,14 +136,6 @@ h2 {
 
 }
 
-.footer {
-  display: grid;
-  margin-right:13px;
-  margin-bottom:13px;
-  align-items: right;
-  color:white;
-}
-
 .about:link,
 .about:hover,
 .about:visited {
@@ -152,6 +144,14 @@ h2 {
   letter-spacing: 0.19em;
   text-decoration: none;
   color: white;
+}
+
+.footer {
+  display: grid;
+  margin-right:13px;
+  margin-bottom:13px;
+  align-items: right;
+  color:white;
 }
 
 .footer-list{
